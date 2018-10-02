@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "logos facts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "whatislogosfacts",
+                    "slots": [],
+                    "samples": [
+                        "tell me about logos",
+                        "hidden logo meanings",
+                        "logos facts",
+                        "tell me logos facts"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
