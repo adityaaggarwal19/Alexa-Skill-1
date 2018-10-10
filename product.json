@@ -34,7 +34,9 @@
                     "samples": [
                         "{opt}",
                         "my option is {opt}",
-                        "option {opt}"
+                        "option {opt}",
+                        "i would say {opt}",
+                        "{opt} option"
                     ]
                 },
                 {
