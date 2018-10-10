@@ -1,0 +1,139 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wildproduct",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "option",
+                    "slots": [
+                        {
+                            "name": "opt",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{opt}",
+                        "my option is {opt}",
+                        "option {opt}"
+                    ]
+                },
+                {
+                    "name": "product_name",
+                    "slots": [
+                        {
+                            "name": "typeof",
+                            "type": "typeof"
+                        }
+                    ],
+                    "samples": [
+                        "product is {typeof}",
+                        "it is {typeof}",
+                        "{typeof}",
+                        "name of my product is {typeof}"
+                    ]
+                },
+                {
+                    "name": "park_name",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me sanctuaries in {city}",
+                        "Wildlife sanctuaries in {city}",
+                        "{city}",
+                        "Biodiversity parks in {city}"
+                    ]
+                },
+                {
+                    "name": "animal_name",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "AMAZON.Animal"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me about {animal}",
+                        "{animal}",
+                        "animal {animal}"
+                    ]
+                },
+                {
+                    "name": "expert_name",
+                    "slots": [],
+                    "samples": [
+                        "Yes tell me",
+                        "Tell me",
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "Movie_name",
+                    "slots": [],
+                    "samples": [
+                        "Yes tell me",
+                        "Tell me",
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "Games_name",
+                    "slots": [],
+                    "samples": [
+                        "Yes tell me",
+                        "Tell me",
+                        "Yes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "typeof",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "medicines",
+                                "synonyms": [
+                                    "medication",
+                                    "medicine"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "necklace",
+                                "synonyms": [
+                                    "neckpiece",
+                                    "jewellery"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
