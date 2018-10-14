@@ -79,21 +79,21 @@ def set_option(intent, session):
     if 'opt' in intent['slots']:
         user_choice = intent['slots']['opt']['value']
         #session_attributes = create_favorite_color_attributes(favorite_color)
-        if user_choice == "One":
+        if user_choice == "1":
             speech_output = "I now know your choice is " + \
                             user_choice + \
                             ". You can ask me about product by saying, " \
                             "tell me about product name?"
             reprompt_text = "You can ask me about product by saying, " \
                             "tell me about product name?"
-        elif user_choice== "Two":
+        elif user_choice== "2":
             speech_output = "I now know your choice is " + \
                             user_choice + \
                             ". You can ask me about product by saying, " \
                             "tell me about product name?"
             reprompt_text = "You can ask me about product by saying, " \
                             "tell me about product name?"
-        elif user_choice == "Three":
+        elif user_choice == "3":
             speech_output = "I now know your choice is " + \
                             user_choice + \
                             ". You can ask me about product by saying, " \
