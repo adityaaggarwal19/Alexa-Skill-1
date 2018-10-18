@@ -3,8 +3,8 @@ def ngo_details(intent, session):
     session_attributes = {}
     should_end_session = False
 
-    if 'cityy' in intent['slots']:
-        user_ngo = intent['slots']['cityy']['value']
+    if 'cityngo' in intent['slots']:
+        user_ngo = intent['slots']['cityngo']['value']
         for i in range(len(ngoo)):
         if user_ngo == ngoo[i][0]:
             speech_output=ngoo[i][1]
