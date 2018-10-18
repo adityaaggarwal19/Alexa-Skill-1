@@ -6,9 +6,9 @@ def know_animal(intent, session):
     if 'animal' in intent['slots']:
         user_animal = intent['slots']['animal']['value']
         for i in range(len(anim)):
-        if a == b[i][0]:
-            speech_output=b[i][1]
-            reprompt_text=b[i][1]
+        if user_animal == anim[i][0]:
+            speech_output=anim[i][1]
+            reprompt_text=anim[i][1]
     else:
         speech_output = "I'm not sure what your animal is. " \
                         "Please try again."
